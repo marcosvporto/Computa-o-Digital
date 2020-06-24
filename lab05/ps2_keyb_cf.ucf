@@ -1,0 +1,23 @@
+NET "CLK" LOC = "C9" | IOSTANDARD = LVCMOS33 ;
+
+# Define clock period for 50 MHz oscillator
+NET "CLK" PERIOD = 20.0ns HIGH 40%;
+
+NET "PS2_CLK" LOC = "G14" | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW | CLOCK_DEDICATED_ROUTE = FALSE ;
+
+NET "PS2_DATA" LOC = "G13" | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+
+# ==== 6-pin header J1 ====
+# These four connections are shared with the FX2 connector
+NET "SSEG<6>" LOC = "B4" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 6 ; #A
+NET "SSEG<5>" LOC = "A4" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 6 ; #B
+NET "SSEG<4>" LOC = "D5" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 6 ; #C
+NET "SSEG<3>" LOC = "C5" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 6 ; #D
+# ==== 6-pin header J2 ====
+# These four connections are shared with the FX2 connector
+NET "SSEG<2>" LOC = "A6" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 6 ; #E 
+NET "SSEG<1>" LOC = "B6" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 6 ; #F
+NET "SSEG<0>" LOC = "E7" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 6 ; #G
+NET "AN" LOC = "F7" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 6 ; # SELECTION
+
+

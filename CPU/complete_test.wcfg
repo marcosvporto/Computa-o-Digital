@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/CPU/main_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="main_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="group81" type="group">
+      <obj_property name="label">MAIN</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/main_tb/clock" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject fp_name="/main_tb/reset" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/main_tb/led_clock_out" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">led_clock_out</obj_property>
+         <obj_property name="ObjectShortName">led_clock_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/main_tb/led_zero" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">led_zero</obj_property>
+         <obj_property name="ObjectShortName">led_zero</obj_property>
+      </wvobject>
+      <wvobject fp_name="/main_tb/led_negativo" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">led_negativo</obj_property>
+         <obj_property name="ObjectShortName">led_negativo</obj_property>
+      </wvobject>
+      <wvobject fp_name="/main_tb/led_p30" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">led_p30[4:0]</obj_property>
+         <obj_property name="ObjectShortName">led_p30[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group72" type="group">
+      <obj_property name="label">LCD</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/main_tb/sf_d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sf_d[11:8]</obj_property>
+         <obj_property name="ObjectShortName">sf_d[11:8]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/main_tb/lcd_e" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">lcd_e</obj_property>
+         <obj_property name="ObjectShortName">lcd_e</obj_property>
+      </wvobject>
+      <wvobject fp_name="/main_tb/lcd_rs" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">lcd_rs</obj_property>
+         <obj_property name="ObjectShortName">lcd_rs</obj_property>
+      </wvobject>
+      <wvobject fp_name="/main_tb/lcd_rw" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">lcd_rw</obj_property>
+         <obj_property name="ObjectShortName">lcd_rw</obj_property>
+      </wvobject>
+      <wvobject fp_name="/main_tb/sf_ce0" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sf_ce0</obj_property>
+         <obj_property name="ObjectShortName">sf_ce0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/main_tb/uut/Inst_u_lcd/state" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">state</obj_property>
+         <obj_property name="ObjectShortName">state</obj_property>
+      </wvobject>
+      <wvobject fp_name="/main_tb/uut/Inst_u_lcd/start" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/main_tb/uut/Inst_u_lcd/opcode" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">opcode[4:0]</obj_property>
+         <obj_property name="ObjectShortName">opcode[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/Inst_u_lcd/write_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">write_data[0:17]</obj_property>
+      <obj_property name="ObjectShortName">write_data[0:17]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/led_zero" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">led_zero</obj_property>
+      <obj_property name="ObjectShortName">led_zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/led_negativo" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">led_negativo</obj_property>
+      <obj_property name="ObjectShortName">led_negativo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/led_p30" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">led_p30[4:0]</obj_property>
+      <obj_property name="ObjectShortName">led_p30[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group74" type="group">
+      <obj_property name="label">CPU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/main_tb/uut/Inst_u_cpu/addr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">addr[4:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/main_tb/uut/Inst_u_cpu/data" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">data[4:0]</obj_property>
+         <obj_property name="ObjectShortName">data[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/main_tb/uut/Inst_u_cpu/we" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">we</obj_property>
+         <obj_property name="ObjectShortName">we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/main_tb/uut/Inst_u_cpu/q" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">q[4:0]</obj_property>
+         <obj_property name="ObjectShortName">q[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/main_tb/uut/Inst_u_cpu/ir" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ir[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ir[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/main_tb/uut/Inst_u_cpu/pc" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">pc[4:0]</obj_property>
+         <obj_property name="ObjectShortName">pc[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/main_tb/uut/Inst_u_cpu/mar" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">mar[4:0]</obj_property>
+         <obj_property name="ObjectShortName">mar[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/main_tb/uut/Inst_u_cpu/reg_a" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg_a[4:0]</obj_property>
+         <obj_property name="ObjectShortName">reg_a[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/main_tb/uut/Inst_u_cpu/reg_b" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg_b[4:0]</obj_property>
+         <obj_property name="ObjectShortName">reg_b[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/main_tb/uut/Inst_u_cpu/state" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">state</obj_property>
+         <obj_property name="ObjectShortName">state</obj_property>
+      </wvobject>
+      <wvobject fp_name="/main_tb/uut/Inst_u_memory/ram_block" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ram_block[0:31]</obj_property>
+         <obj_property name="ObjectShortName">ram_block[0:31]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

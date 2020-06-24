@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/Lab03/rotary_enc_bounce_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="rotary_enc_bounce_tb" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/rotary_enc_bounce_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rotary_enc_bounce_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rotary_enc_bounce_tb/rot_a" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rot_a</obj_property>
+      <obj_property name="ObjectShortName">rot_a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rotary_enc_bounce_tb/rot_b" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rot_b</obj_property>
+      <obj_property name="ObjectShortName">rot_b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rotary_enc_bounce_tb/rot_center" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rot_center</obj_property>
+      <obj_property name="ObjectShortName">rot_center</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rotary_enc_bounce_tb/leds" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">leds[7:0]</obj_property>
+      <obj_property name="ObjectShortName">leds[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rotary_enc_bounce_tb/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rotary_enc_bounce_tb/deb_h" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">deb_h</obj_property>
+      <obj_property name="ObjectShortName">deb_h</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rotary_enc_bounce_tb/deb_l" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">deb_l</obj_property>
+      <obj_property name="ObjectShortName">deb_l</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rotary_enc_bounce_tb/stable" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">stable</obj_property>
+      <obj_property name="ObjectShortName">stable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rotary_enc_bounce_tb/uut/Inst_rotary_encoder_interface/rotary_a_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rotary_a_out</obj_property>
+      <obj_property name="ObjectShortName">rotary_a_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rotary_enc_bounce_tb/uut/Inst_rotary_encoder_interface/rotary_b_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rotary_b_out</obj_property>
+      <obj_property name="ObjectShortName">rotary_b_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rotary_enc_bounce_tb/uut/Inst_rotary_encoder_interface/rotary_lft" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rotary_lft</obj_property>
+      <obj_property name="ObjectShortName">rotary_lft</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rotary_enc_bounce_tb/uut/Inst_rotary_encoder_interface/rotary_evnt" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rotary_evnt</obj_property>
+      <obj_property name="ObjectShortName">rotary_evnt</obj_property>
+   </wvobject>
+</wave_config>

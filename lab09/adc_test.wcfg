@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/lab09/ADC_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="adc_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/adc_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adc_tb/amp_dout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">amp_dout</obj_property>
+      <obj_property name="ObjectShortName">amp_dout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adc_tb/spi_miso" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">spi_miso</obj_property>
+      <obj_property name="ObjectShortName">spi_miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adc_tb/spi_mosi" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">spi_mosi</obj_property>
+      <obj_property name="ObjectShortName">spi_mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adc_tb/amp_cs" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">amp_cs</obj_property>
+      <obj_property name="ObjectShortName">amp_cs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adc_tb/spi_sck" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">spi_sck</obj_property>
+      <obj_property name="ObjectShortName">spi_sck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adc_tb/amp_shdn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">amp_shdn</obj_property>
+      <obj_property name="ObjectShortName">amp_shdn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adc_tb/ad_conv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ad_conv</obj_property>
+      <obj_property name="ObjectShortName">ad_conv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adc_tb/fpga_init_b" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fpga_init_b</obj_property>
+      <obj_property name="ObjectShortName">fpga_init_b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adc_tb/leds" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">leds[7:0]</obj_property>
+      <obj_property name="ObjectShortName">leds[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adc_tb/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adc_tb/uut/state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adc_tb/uut/bit_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bit_counter[5:0]</obj_property>
+      <obj_property name="ObjectShortName">bit_counter[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adc_tb/uut/adc_msg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adc_msg[33:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_msg[33:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adc_tb/uut/ch1_msg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ch1_msg[13:0]</obj_property>
+      <obj_property name="ObjectShortName">ch1_msg[13:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
